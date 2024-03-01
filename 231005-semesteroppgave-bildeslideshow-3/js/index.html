@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Slideshow</title>
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+ 
+	<body>
+		<h2>Norway`s nature:)</h2>
+		<div class="slideshow">
+			<div class="slideshow __slides">
+				<figure class="slideshow__slide slideshow__slide--visible">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/7258517/pexels-photo-7258517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Dununger</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/3384695/pexels-photo-3384695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Bølgene slår</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/3714262/pexels-photo-3714262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Dalen er dyp</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/18903363/pexels-photo-18903363/free-photo-of-kyst-fjell-innsjo-ro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Fjellet står høyt</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/15850722/pexels-photo-15850722/free-photo-of-natur-fugl-fly-dyr.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Se jeg flyr</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/15883145/pexels-photo-15883145/free-photo-of-natur-skog-traer-dyp.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Træra gror</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+				<img class="slideshow__img" src="https://images.pexels.com/photos/15880292/pexels-photo-15880292/free-photo-of-sjo-natur-solnedgang-strand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+				<figcaption class="slideshow__caption">Sola går den</figcaption>
+				</figure>
+			</div>	
+
+			<div class="slideshow__controls">
+				<button class="slideshow__control-button" data-direction="previous">Previous</button>
+				<button class="slideshow__control-button" data-direction="next">Next</button>
+			</div>
+
+			 <!-- <div class="slideshow__dots">
+				<button class="slideshow__dot" data-index="0"></button>
+				<button class="slideshow__dot" data-index="1"></button>
+				<button class="slideshow__dot" data-index="2"></button>
+				<button class="slideshow__dot" data-index="3"></button>
+				<button class="slideshow__dot" data-index="4"></button>
+				<button class="slideshow__dot" data-index="5"></button>
+				<button class="slideshow__dot" data-index="6"></button>
+				<button class="slideshow__dot" data-index="7"></button>
+			</div>  -->
+			
+			<!-- <div class="w3__centers">
+				<button class="w3__center" onclick="currentDiv(0)">0</button> 
+				<button class="w3__center" onclick="currentDiv(1)">1</button> 
+				<button class="w3__center" onclick="currentDiv(2)">2</button> 
+				<button class="w3__center" onclick="currentDiv(3)">3</button> 
+				<button class="w3__center" onclick="currentDiv(4)">4</button> 
+				<button class="w3__center" onclick="currentDiv(5)">5</button> 
+				<button class="w3__center" onclick="currentDiv(6)">6</button> 
+			  </div> -->
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+				<span class="dot" onclick="currentSlide(7)"></span>
+			</div>
+
+			<div class="slideshow__counter">
+				1/7
+			</div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
